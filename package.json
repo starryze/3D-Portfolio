@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": "https://starryze.github.io/3D-Portfolio/",
   "scripts": {
+    "start": "serve -s dist -l 3000",
     "dev": "vite",
     "build": "vite build",
-    "start": "serve -s dist -l 3000",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
