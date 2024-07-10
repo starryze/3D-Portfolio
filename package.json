@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://starryze.github.io/3D-Portfolio/",
   "scripts": {
-    "start": "serve -s dist -l 3000",
+    "start": "serve -s dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -25,8 +25,8 @@
     "react-router-dom": "^6.23.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.165.0",
-    "serve": "^14.2.3"
+    "serve": "^14.2.3",
+    "three": "^0.165.0"
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.0",
